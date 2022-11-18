@@ -4,7 +4,11 @@ title: American FlightsDIY Api
 /flights:
   get:
     queryParameters:
-      
+      destination:
+        required: false
+        enum:
+          - SFO
+          - LAX
 
   post:
 
